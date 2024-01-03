@@ -1,5 +1,43 @@
+@font-face {
+    font-family: Gorditas;
+    src: url(../assets/fonts/Gorditas-Regular.ttf);
+}
+
+@font-face {
+    font-family: Grandstander;
+    src: url(../assets/fonts/Grandstander-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: Inika;
+    src: url(../assets/fonts/Inika-Regular.ttf);
+}
+
+@font-face {
+    font-family: Lucky;
+    src: url(../assets/fonts/LuckiestGuy-Regular.ttf);
+}
+
+@font-face {
+    font-family: Martel;
+    src: url(../assets/fonts/Martel-Regular.ttf);
+}
+
+@font-face {
+    font-family: Pacifico;
+    src: url(../assets/fonts/Pacifico-Regular.ttf);
+}
+
 .bGroundOne{
     background-image: url(../assets/845441.png);
+    height: 538px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 100% 35%;
+}
+
+.bGroundTwo{
+    background-image: url(../assets/aboutUsHeader.png);
     height: 538px;
     background-size: cover;
     background-repeat: no-repeat;
