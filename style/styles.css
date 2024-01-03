@@ -52,9 +52,11 @@
 
 .ACT {
     color: #FFFFFF;
-    margin-top: -7%;
+    margin-top: -6.8%;
     margin-left: 10%;
     font-size: 35px;
+    font-family: Gorditas;
+    text-shadow: 3px 3px black;
     
 }
 .Logo{
@@ -67,12 +69,16 @@
 color: #FFFFFF;
 font-size: 40px;
 margin-top: 10%;
+font-family: Pacifico;
+margin-left: 1%;
 }
 
 .happLife{
     color: #FFFFFF;
     font-size: 60px;
-    margin-top: -10%;
+    margin-top: -8%;
+    font-family: Lucky;
+    text-shadow: 1px 5px 5px black;
 }
 
 .healHapp {
