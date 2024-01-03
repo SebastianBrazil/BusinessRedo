@@ -1,8 +1,9 @@
 .bGroundOne{
     background-image: url(../assets/845441.png);
-    height: 738px;
+    height: 538px;
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: 100% 35%;
 }
+
 
