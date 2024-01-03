@@ -4,7 +4,7 @@ Sebastian Breve-Sanchez, Bronel Lazar
 
 Business Redevelopment Code-out
 
-Description: 
+Description: This project is the full build of the Figma prototype this team created. It is for the business 'Abandoned Cat Team' and is fully functional through being built with HTML and CSS. 
 
 1/3/24: 
 

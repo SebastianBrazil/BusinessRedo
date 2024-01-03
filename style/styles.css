@@ -1,10 +1,8 @@
-/* body {
-   
-} */
-
-.placeholder {
-    width: 101.8%;
-    height: 500px;
-    margin-left: -1%;
-    
+.bGroundOne{
+    background-image: url(../assets/placeholder.jpeg);
+    height: 738px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
 }
+
