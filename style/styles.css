@@ -6,4 +6,38 @@
     background-position: 100% 35%;
 }
 
+.navb {
+    background-color: #C0BA19;
+    background-size: cover;
+    height: 89px;
+}
 
+.ACT {
+    color: #FFFFFF;
+    margin-top: -7%;
+    margin-left: 10%;
+    font-size: 35px;
+    
+}
+.Logo{
+    margin-top: 1%;
+    width: 136px;
+    height: 101px;
+}
+
+.healthPet{
+color: #FFFFFF;
+font-size: 40px;
+margin-top: 10%;
+}
+
+.happLife{
+    color: #FFFFFF;
+    font-size: 60px;
+    margin-top: -10%;
+}
+
+.healHapp {
+    margin-top: 8%;
+    margin-left: 75%;
+}
