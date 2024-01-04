@@ -29,7 +29,7 @@
 }
 
 .bGroundOne{
-    background-image: url(../assets/845441.png);
+    background-image: url(../assets/homeHeader.png);
     height: 538px;
     background-size: cover;
     background-repeat: no-repeat;
@@ -41,12 +41,11 @@
     height: 538px;
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: 100% 35%;
+    background-position: 100% 13%;
 }
 
 .navb {
     background-color: #C0BA19;
-    background-size: cover;
     height: 89px;
 }
 
@@ -56,11 +55,11 @@
     margin-left: 10%;
     font-size: 35px;
     font-family: Gorditas;
-    text-shadow: 3px 3px black;
+    text-shadow: 1px 5px 5px black;
     
 }
 .Logo{
-    margin-top: 1%;
+    margin-top: 0.5%;
     width: 136px;
     height: 101px;
 }
@@ -68,7 +67,7 @@
 .healthPet{
 color: #FFFFFF;
 font-size: 40px;
-margin-top: 10%;
+margin-top: 9%;
 font-family: Pacifico;
 margin-left: 1%;
 }
@@ -76,7 +75,7 @@ margin-left: 1%;
 .happLife{
     color: #FFFFFF;
     font-size: 60px;
-    margin-top: -8%;
+    margin-top: -6%;
     font-family: Lucky;
     text-shadow: 1px 5px 5px black;
 }
@@ -84,4 +83,54 @@ margin-left: 1%;
 .healHapp {
     margin-top: 8%;
     margin-left: 75%;
+}
+
+.btnNav{
+    border: none;
+    background-color: #C0BA19;
+    text-decoration: none;
+    color: #FFFFFF;
+    font-family: Gorditas;
+    font-size: 36px;
+}
+
+.overrideDropD{
+    background-color: #C0BA19;
+    width: 301px;
+    height: 284px;
+    border-radius: 0px;
+    border-color: #C0BA19;
+    list-style-type: none;
+}
+
+.overrideDropDTwo{
+    background-color: #C0BA19;
+    width: 301px;
+    height: 194px;
+    border-radius: 0px;
+    border-color: #C0BA19;
+}
+
+.innerDropD{
+    color: #FFFFFF;
+    font-size: 40px;
+    font-family: Grandstander;
+    font-weight: 200;
+}
+
+.whiteLine{
+    color: #FFFFFF;
+    background-color: #FFFFFF;
+}
+
+.noBP{
+    list-style-type: none;
+}
+
+.shift{
+    margin-left: -30%;
+}
+
+.shiftTwo{
+    margin-left: -10%;
 }
