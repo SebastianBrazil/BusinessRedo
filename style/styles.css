@@ -28,7 +28,7 @@
     src: url(../assets/fonts/Pacifico-Regular.ttf);
 }
 
-.bGroundOne{
+.bGroundOne {
     background-image: url(../assets/homeHeader.png);
     height: 538px;
     background-size: cover;
@@ -36,7 +36,7 @@
     background-position: 100% 35%;
 }
 
-.bGroundTwo{
+.bGroundTwo {
     background-image: url(../assets/aboutUsHeader.png);
     height: 538px;
     background-size: cover;
@@ -56,23 +56,23 @@
     font-size: 35px;
     font-family: Gorditas;
     text-shadow: 1px 5px 5px black;
-    
 }
-.Logo{
+
+.Logo {
     margin-top: 0.5%;
     width: 136px;
     height: 101px;
 }
 
-.healthPet{
-color: #FFFFFF;
-font-size: 40px;
-margin-top: 9%;
-font-family: Pacifico;
-margin-left: 1%;
+.healthPet {
+    color: #FFFFFF;
+    font-size: 40px;
+    margin-top: 9%;
+    font-family: Pacifico;
+    margin-left: 1%;
 }
 
-.happLife{
+.happLife {
     color: #FFFFFF;
     font-size: 60px;
     margin-top: -6%;
@@ -85,7 +85,7 @@ margin-left: 1%;
     margin-left: 75%;
 }
 
-.btnNav{
+.btnNav {
     border: none;
     background-color: #C0BA19;
     text-decoration: none;
@@ -94,7 +94,7 @@ margin-left: 1%;
     font-size: 36px;
 }
 
-.overrideDropD{
+.overrideDropD {
     background-color: #C0BA19;
     width: 301px;
     height: 284px;
@@ -103,7 +103,7 @@ margin-left: 1%;
     list-style-type: none;
 }
 
-.overrideDropDTwo{
+.overrideDropDTwo {
     background-color: #C0BA19;
     width: 301px;
     height: 194px;
@@ -111,26 +111,31 @@ margin-left: 1%;
     border-color: #C0BA19;
 }
 
-.innerDropD{
+.innerDropD {
     color: #FFFFFF;
     font-size: 40px;
     font-family: Grandstander;
     font-weight: 200;
+    text-decoration: none;
 }
 
-.whiteLine{
+.whiteLine {
     color: #FFFFFF;
     background-color: #FFFFFF;
 }
 
-.noBP{
+.noBP {
     list-style-type: none;
 }
 
-.shift{
+.shift {
     margin-left: -30%;
 }
 
-.shiftTwo{
+.shiftTwo {
     margin-left: -10%;
+}
+
+.pushDown {
+    padding-bottom: 4%;
 }
