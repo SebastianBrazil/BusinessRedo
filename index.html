@@ -2,100 +2,91 @@
 <html lang="en">
 
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Business Redevelopment</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-    <link rel="stylesheet" href="style/styles.css">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Business Redevelopment</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <link rel="stylesheet" href="style/styles.css">
 </head>
 
 <body>
-
-
-    <div class="container-fluid">
-        <div class="row">
-
-            <div class="bGroundOne">
-                <img class="Logo" src="./assets/actLogo.jpg" alt="">
-                <p class="ACT">ACT Spay & Neuter Clinic</p>
-                <div class="healHapp">
-                    <p class="healthPet">Healthy Pet</p>
-                    <p class="happLife">Happy Life</p>
-                </div>
-            </div>
-
+  <!-- Header -->
+  <div class="container-fluid">
+    <div class="row">
+      <div class="bGroundOne">
+        <img class="Logo" src="./assets/actLogo.jpg" alt="Logo">
+        <p class="ACT">ACT Spay & Neuter Clinic</p>
+        <div class="healHapp">
+          <p class="healthPet">Healthy Pet</p>
+          <p class="happLife">Happy Life</p>
         </div>
-
-        <div class="container-fluid navb">
-            
-                <!-- Explore dropdown -->
-                <div class="btn-group">
-                    <button type="button" class="btn dropdown-toggle navButtons" data-bs-toggle="dropdown"
-                        aria-expanded="false">
-                        Explore
-                    </button>
-                    <ul class="dropdown-menu dropMenuStyle">
-                        <li>
-                            <hr class="dropdown-divider">
-                        </li>
-                        <li><a class="dropdown-item" href="#">Home</a></li>
-                        <li>
-                            <hr class="dropdown-divider">
-                        </li>
-                        <li><a class="dropdown-item" href="#">About</a></li>
-                        <li>
-                            <hr class="dropdown-divider">
-                        </li>
-                        <li><a class="dropdown-item" href="#">Location</a></li>
-                       
-                        
-                    </ul>
-                </div>
-                <!--Our Services dropdown-->
-                <div class="btn-group">
-                    <button type="button" class="btn dropdown-toggle navButtons" data-bs-toggle="dropdown"
-                        aria-expanded="false">
-                        Our Services
-                    </button>
-                    <ul class="dropdown-menu dropMenuStyle">
-                        <li>
-                            <hr class="dropdown-divider">
-                        </li>
-                        <li><a class="dropdown-item" href="#">Services</a></li>
-                        <li>
-                            <hr class="dropdown-divider">
-                        </li>
-                        <li><a class="dropdown-item" href="#">Adopt-a-Cat</a></li>
-
-                        
-                        
-                    </ul>
-                </div>
-
-                <button type="button" class="btn navButtons">Feral Cats</button>
-
-                <button type="button" class="btn navButtons">How to Help</button>
-
-            
-        </div>
-        <!-- <div class="row navb">
-
-        </div> -->
-        
-
-<div class="container-fluid navb2">
-<p class="Main">Welcome to ACT Spay/Neuter Clinic</p>
-
-</div>
-
-<div class="bGroundBody">
-    <p>asdjas</p>
-</div>
-
-
+      </div>
     </div>
 
+    <div class="row">
+      <nav class="navbar navbar-expand-lg navb">
+        <div class="container-fluid">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+            aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse d-flex justify-content-evenly noBP" id="navbarNavDropdown">
+            <li class="nav-item dropdown">
+              <button class="dropdown-toggle btnNav" href="#" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                Explore
+              </button>
+              <ul class="dropdown-menu overrideDropD text-center shift">
+                <li>
+                  <hr class="dropdown-divider whiteLine">
+                </li>
+                <li><a class="dropdown-item innerDropD" href="./index.html">Home</a></li>
+                <li>
+                  <hr class="dropdown-divider whiteLine">
+                </li>
+                <li><a class="dropdown-item innerDropD" href="./Pages/about.html">About</a></li>
+                <li>
+                  <hr class="dropdown-divider whiteLine">
+                </li>
+                <li><a class="dropdown-item innerDropD" href="./Pages/location.html">Location</a></li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <button class="dropdown-toggle btnNav" href="#" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                Our Services
+              </button>
+              <ul class="dropdown-menu overrideDropDTwo text-center shiftTwo">
+                <li>
+                  <hr class="dropdown-divider whiteLine">
+                </li>
+                <li><a class="dropdown-item innerDropD" href="./Pages/services.html">Services</a></li>
+                <li>
+                  <hr class="dropdown-divider whiteLine">
+                </li>
+                <li><a class="dropdown-item innerDropD" href="./Pages/adoptCat.html">Adopt-A-Cat</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="btnNav" href="./Pages/feralCats.html" role="button" aria-expanded="false">
+                Feral Cats
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="btnNav" href="./Pages/HowToHelp.html" role="button" aria-expanded="false">
+                How To Help
+              </a>
+            </li>
+          </div>
+        </div>
+      </nav>
+    </div>
+  </div>
+  <!-- End Header -->
+
+
+  <!-- Next -->
 
 
 
@@ -108,9 +99,11 @@
 
 
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
-        crossorigin="anonymous"></script>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
 </body>
 
 </html>
