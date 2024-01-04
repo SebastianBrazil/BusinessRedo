@@ -28,6 +28,7 @@
     src: url(../assets/fonts/Pacifico-Regular.ttf);
 }
 
+
 .bGroundOne{
     background-image: url(../assets/845441.png);
     height: 538px;
@@ -47,6 +48,8 @@
 .navb {
     background-color: #C0BA19;
     background-size: cover;
+    margin-left: -1%;
+    width: 101.8%;
     height: 89px;
 }
 
@@ -85,3 +88,35 @@ margin-left: 1%;
     margin-top: 8%;
     margin-left: 75%;
 }
+.navButtons{
+    color: #FFFFFF;
+    font-family: Gorditas;
+    font-size: 36px;
+}
+.dropMenuStyle{
+    background-color: #C0BA19;
+}
+
+.navb2{
+    margin-top: 0.5%;
+    background-color: #6D8DDF;
+    background-size: cover;
+    margin-left: -1%;
+    width: 101.8%;
+    height: 89px;
+}
+
+.Main{
+    
+    font-size: 50px;
+    font-family: Inika;
+    color: #FFFFFF;
+}
+.bGroundBody{
+    background-image: url(../assets/pawprintImg.jpg);
+  
+    background-size: cover;
+    background-repeat: no-repeat;
+   
+}
+
