@@ -28,8 +28,12 @@
     src: url(../assets/fonts/Pacifico-Regular.ttf);
 }
 
+body {
+    background-image: url(../assets/bgPaws.png);
+    background-size: cover;
+}
 
-.bGroundOne{
+.bGroundOne {
     background-image: url(../assets/homeHeader.png);
     height: 538px;
     background-size: cover;
@@ -52,6 +56,7 @@
     background-repeat: no-repeat;
     background-position: 100% 7%;
 }
+
 .bGroundFour {
     background-image: url(../assets/servicesHeader.png);
     height: 538px;
@@ -59,6 +64,7 @@
     background-repeat: no-repeat;
     background-position: 100% 35%;
 }
+
 .bGroundFive {
     background-image: url(../assets/AdoptHeader.webp);
     height: 538px;
@@ -72,61 +78,61 @@
     height: 89px;
 }
 
+.whiteGapHeader {
+    padding-top: 5px;
+    background-color: #FFFFFF;
+}
+
 .blueb {
-    margin-top: 0.5%;
     background-color: #6D8DDF;
     height: 89px;
 }
 
-.bluebTitle{
+.bluebTitle {
     color: #FFFFFF;
     font-size: 50px;
     font-family: Inika;
-    font-weight: bold;
-    text-align: center;
+    padding-top: 8px;
 }
-.head{
+
+.head {
     font-family: Inika;
     font-size: 32px;
     color: #000000;
-    text-align: center;
-    margin-top: 3%;
-    font-weight: bold;
+    margin-top: 35px;
 }
 
-.homeTxt{
+.homeTxt {
     color: #000000;
     font-family: Martel;
     font-size: 25px;
-    text-align: left;
-    width: 758px;
-    margin-top: 3%;
-    margin-left: 12%;
-    text-indent: 4%;
+    margin-top: 20px;
+    margin-left: 150px;
+    margin-right: 21px;
+    text-indent: 30px;
 }
 
-.quote{
-    color: #000000;
-    font-size: 25px;
-    font-family: Grandstander;
-    font-weight: 500;
-    width: 339px;
-    height: 242px;
-    text-align: center;
+.extraMargin {
+    margin-top: 50px;
+    margin-bottom: 30px;
 }
-.quoter{
+
+.quote {
     color: #000000;
     font-size: 25px;
     font-family: Grandstander;
-    text-align: center;
-margin-top: -15%;
-    width: 339px;
-    height: 242px;
+    font-weight: 400;
+}
+
+.quoter {
+    margin-top: -20px;
+    font-weight: 300;
 }
 
 .quotePosition {
-    margin-top: -29%;
-    margin-left: 70%;
+    padding-top: 150px;
+    padding-left: 90px;
+    padding-right: 90px;
 }
 
 .ACT {
@@ -218,29 +224,29 @@ margin-top: -15%;
     padding-bottom: 4%;
 }
 
-.footerColor{
+.footerColor {
     background-color: #6D8DDF;
     height: min-content;
 }
 
-.logoFooter{
+.logoFooter {
     width: 136px;
     height: 101px;
     margin-top: 31px;
     margin-left: 136px;
 }
 
-.outer-FB-Footer{
+.outer-FB-Footer {
     margin-right: 7.5%;
     margin-top: -60px;
 }
 
-.fbFooter{
+.fbFooter {
     width: 58px;
-    height: 60px;   
+    height: 60px;
 }
 
-.rightTopText{
+.rightTopText {
     margin-top: 23px;
     margin-right: 16%;
     font-family: Grandstander;
@@ -249,7 +255,7 @@ margin-top: -15%;
     font-weight: 200;
 }
 
-.rightBottomText{
+.rightBottomText {
     margin-right: 16%;
     font-family: Grandstander;
     color: #D9D9D9;
@@ -257,22 +263,22 @@ margin-top: -15%;
     font-weight: 500;
 }
 
-.rightTextShift{
+.rightTextShift {
     margin-top: 15px;
 }
 
-.rightShrinkMargin{
+.rightShrinkMargin {
     margin-top: -25px;
 }
 
-.leftTopText{
+.leftTopText {
     font-family: Gorditas;
     font-size: 32px;
     color: #D9D9D9;
     margin-left: 136px;
 }
 
-.leftBottomText{
+.leftBottomText {
     font-family: Grandstander;
     font-size: 24px;
     color: #D9D9D9;
@@ -281,23 +287,18 @@ margin-top: -15%;
     margin-top: -27px;
 }
 
-.bGroundSplash{
-    background-image: url(../assets/colorSplash.png);
+.bGroundSplash {
+    background-image: url(../assets/colorPaint.png);
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: 100% 35%;
-    width: 489px;
+    width: auto;
     height: 493px;
-    margin-left: 65%;
-    margin-top: -40%;
-     filter: saturate(2);
-   /* filter: contrast(1); */
-opacity: 50%;
-}
+    margin-left: -40px;
+    margin-top: 0px;
 
-.pawPrint{
-    background-image: url(../assets/pawprintImg.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    opacity: 50%;
+    filter: brightness(500%);
+    filter: saturate(500%);
+    filter: contrast(200%);
+    filter: hue-rotate(500%);
+    opacity: 1;
 }
