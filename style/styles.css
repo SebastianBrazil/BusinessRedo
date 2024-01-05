@@ -729,3 +729,226 @@ body {
 .callShift {
     margin-left: 50px;
 }
+
+.adoptText {
+    color: #000000;
+    font-family: Martel;
+    font-size: 25px;
+    margin-top: 60px;
+    margin-left: 139px;
+    margin-right: 139px;
+    margin-bottom: 50px;
+}
+
+.adoptHead {
+    font-family: Inika;
+    font-size: 38px;
+    color: #000000;
+    margin-top: 35px;
+}
+
+.adoptSubHead {
+    font-family: Inika;
+    font-size: 30px;
+    color: #000000;
+    margin-top: 10px;
+    margin-bottom: 70px;
+    margin-left: 150px;
+    margin-right: 100px;
+    text-indent: 30px;
+}
+
+.blueAdopt {
+    background-color: #6D8DDF;
+}
+
+.addTopSpace {
+    padding-top: 50px;
+}
+
+.addMoreTopSpace {
+    padding-top: 140px;
+}
+
+.addBottomSpace {
+    padding-bottom: 150px;
+}
+
+.adopt1 {
+    background-image: url(../assets/AdoptACatPics/ACT-Adoptable-Cats~~element295.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 280px;
+    width: 300px;
+    margin-right: 10px;
+}
+
+.adopt2 {
+    background-image: url(../assets/AdoptACatPics/ACT-Adoptable-Cats~~element287.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 300px;
+    height: 280px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.adopt3 {
+    background-image: url(../assets/AdoptACatPics/ACT-Adoptable-Cats~~element141.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 300px;
+    height: 280px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.adopt4 {
+    background-image: url(../assets/AdoptACatPics/Lottie_1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 300px;
+    height: 280px;
+    margin-left: 10px;
+}
+
+.adopt5 {
+    background-image: url(../assets/AdoptACatPics/ACT-Adoptable-Cats~~element289.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 280px;
+    width: 300px;
+    margin-right: 10px;
+}
+
+.adopt6 {
+    background-image: url(../assets/AdoptACatPics/ACT-Adoptable-Cats~~element297.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 300px;
+    height: 280px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.adopt7 {
+    background-image: url(../assets/AdoptACatPics/ACT-Adoptable-Cats~~element180.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 300px;
+    height: 280px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.adopt8 {
+    background-image: url(../assets/AdoptACatPics/ACT-Adoptable-Cats~~element311.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 300px;
+    height: 280px;
+    margin-left: 10px;
+}
+
+.adopt9 {
+    background-image: url(../assets/AdoptACatPics/ACT-Adoptable-Cats~~element65.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 280px;
+    width: 300px;
+    margin-right: 10px;
+}
+
+.adopt10 {
+    background-image: url(../assets/AdoptACatPics/10.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 300px;
+    height: 280px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.adopt11 {
+    background-image: url(../assets/AdoptACatPics/11.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 300px;
+    height: 280px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.adopt12 {
+    background-image: url(../assets/AdoptACatPics/12.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 300px;
+    height: 280px;
+    margin-left: 10px;
+}
+
+.styleBtn {
+    background-color: #6D8DDF;
+    color: #FFFFFF;
+    font-family: Martel;
+    font-size: 25px;
+    text-align: center;
+
+    border-radius: 30px;
+    width: 311px;
+    height: 112px;
+
+    padding-top: 40px;
+    margin-top: -10px;
+    margin-bottom: 100px;
+}
+
+.adoptName {
+    margin-top: 290px;
+    font-family: Courgette;
+    color: #FFFFFF;
+    font-size: 32px;
+}
+
+.adoptAge {
+    margin-top: -25px;
+    font-family: Courgette;
+    color: #FFFFFF;
+    font-size: 24px;
+}
+
+.adoptNameShort {
+    margin-top: 102px;
+    font-family: Courgette;
+    color: #FFFFFF;
+    font-size: 32px;
+}
+
+.adoptAgeShort {
+    margin-top: -23px;
+    font-family: Courgette;
+    color: #FFFFFF;
+    font-size: 24px;
+}
+
+.adoptAdopted {
+    font-family: Courgette;
+    color: #FFFFFF;
+    font-size: 64px;
+    text-shadow: 1px 5px 5px black;
+    transform: rotate(-45deg);
+    margin-top: 90px;
+}
