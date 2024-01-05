@@ -28,8 +28,12 @@
     src: url(../assets/fonts/Pacifico-Regular.ttf);
 }
 
+body {
+    background-image: url(../assets/bgPaws.png);
+    background-size: cover;
+}
 
-.bGroundOne{
+.bGroundOne {
     background-image: url(../assets/homeHeader.png);
     height: 538px;
     background-size: cover;
@@ -52,6 +56,7 @@
     background-repeat: no-repeat;
     background-position: 100% 7%;
 }
+
 .bGroundFour {
     background-image: url(../assets/servicesHeader.png);
     height: 538px;
@@ -59,6 +64,7 @@
     background-repeat: no-repeat;
     background-position: 100% 35%;
 }
+
 .bGroundFive {
     background-image: url(../assets/AdoptHeader.webp);
     height: 538px;
@@ -86,26 +92,29 @@
     height: 89px;
 }
 
+.whiteGapHeader {
+    padding-top: 5px;
+    background-color: #FFFFFF;
+}
+
 .blueb {
-    margin-top: 0.5%;
     background-color: #6D8DDF;
     height: 89px;
 }
 
-.bluebTitle{
+.bluebTitle {
     color: #FFFFFF;
     font-size: 50px;
     font-family: Inika;
-    font-weight: bold;
-    text-align: center;
+    padding-top: 8px;
 }
+
+
 .head{
     font-family: Inika;
     font-size: 32px;
     color: #000000;
-    text-align: center;
-    margin-top: 3%;
-    font-weight: bold;
+    margin-top: 35px;
 }
 .headVariant2{
     font-family: Inika;
@@ -135,16 +144,214 @@
     color: #000000;
 margin-left: 40%;
 }
+.headVariant2{
+    font-family: Inika;
+    font-size: 32px;
+    color: #000000;
+    text-align: center;
+    margin-top: 3%;
+    /* font-weight: bold; */
+    width: 76%;
+    margin-left: 13%;
+}
+.headHelp{
+    font-family: Inika;
+    font-size: 32px;
+    color: #000000;
+    
+    text-align: center;
+    margin-top: 3%;
+    /* font-weight: bold; */
+    width: 1290px;
+    height: 336px;
+    margin-left: 6%;
+}
+.feralCatFacts {
+    font-size: 35px;
+    font-family: Martel;
+    font-weight: 500;
+    color: #000000;
+margin-left: 40%;
+}
 
 .homeTxt{
     color: #000000;
     font-family: Martel;
     font-size: 25px;
+    margin-top: 20px;
+    margin-left: 150px;
+    margin-right: 21px;
+    text-indent: 30px;
+}
+
+.extraMargin {
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+.homeTxtVariant2{
+    color: #000000;
+    font-family: Martel;
+    font-size: 25px;
+    
     text-align: left;
     width: 758px;
-    margin-top: 3%;
-    margin-left: 12%;
-    text-indent: 4%;
+    margin-top: 0.5%;
+    margin-left: 40%;
+
+    /* text-indent: 4%; */
+}
+.feralTrap{
+    background-image: url(../assets/feraltrap.jpg);
+    width: 471px;
+    height: 405px;
+    background-size: cover;
+    background-position: 50% 100%;
+ margin-left: 5%;
+ margin-top: -60%;
+    border-radius: 25px;
+}
+.angryFeral {
+    background-image: url(../assets/raccoon.jpeg);
+    width: 471px;
+    height: 405px;
+    background-size: cover;
+    background-position: 50% 100%;
+ margin-left: 5%;
+ margin-top: 2%;
+    border-radius: 25px;
+}
+.feralApptInfo{
+    font-size: 30px;
+    font-family: Inika;
+    font-weight: bold;
+    color: #000000;
+    text-align: center;
+    margin-left: -56%;
+    height: 25px;
+}
+.contactInf{
+    font-size: 32px;
+    font-family: Inika;
+    font-weight: bold;
+    color: #000000;
+    text-align: center;
+    height: 25px;
+}
+.imptApptMess{
+    font-size: 30px;
+    font-family: Inika;
+    font-weight: bold;
+    color: #000000;
+    text-align: center;
+    margin-top: 5%;
+}
+.catTrapInfo{
+    font-size: 30px;
+    font-family: Inika;
+    font-weight: bold;
+    color: #000000;
+    width: 471px;
+    margin-left: 5%;
+    text-align: center;
+}
+.manyWaysToHelp {
+    font-family: Martel;
+    font-size: 40px;
+    color: #000000;
+    text-align: center;
+    margin-top: 8%;
+}
+.volunteer {
+    background-image: url(../assets/volunteer.jpeg);
+    width: 452px;
+    height: 326px;
+    background-size: cover;
+    background-position: 50% 100%;
+ margin-left: 15%;
+ /* margin-top: -60%; */
+    /* border-radius: 25px; */
+    border: 15px solid #6D8DDF;
+}
+.helpTitles{
+    font-size: 30px;
+    font-family: Inika;
+    font-weight: bold;
+    color: #000000;
+    
+}
+.helpTxt{
+    font-size: 25px;
+    font-family: Martel;
+    color: #000000;
+    width: 570px;
+    height: 312px;
+}
+.donate {
+    background-image: url(../assets/donate.jpg);
+    width: 452px;
+    height: 326px;
+    background-size: cover;
+    background-position: 50% 100%;
+ margin-left: 57%;
+ margin-top: -47.69%;
+    /* border-radius: 25px; */
+    border: 15px solid #6D8DDF;
+}
+.plannedGiv {
+    background-image: url(../assets/giving.png);
+    width: 452px;
+    height: 326px;
+    background-size: cover;
+    background-position: 50% 100%;
+    margin-left: 15%;
+ /* margin-left: 5%;
+ margin-top: -60%; */
+    /* border-radius: 25px; */
+    border: 15px solid #6D8DDF;
+}
+.cansForCrits {
+    background-image: url(../assets/recycle.jpg);
+    width: 452px;
+    height: 326px;
+    background-size: cover;
+    background-position: 50% 100%;
+    margin-left: 57%;
+    margin-top: -47.69%;
+ /* margin-left: 5%;
+ margin-top: -60%; */
+    /* border-radius: 25px; */
+    border: 15px solid #6D8DDF;
+}
+
+.currDonation{
+    font-size: 35px;
+    font-weight: bold;
+    font-family: Martel;
+    text-align: center;
+    margin-top: -4%;
+    color: #000000;
+}
+.donationH2 {
+    font-size: 25px;
+    font-family: Martel;
+    text-align: center;
+    color: #000000;
+}
+.donationItem {
+    font-size: 25px;
+    font-family: Martel;
+    font-weight: bold;
+    text-align: center;
+    color: #000000;
+}
+.donationItemDesc {
+    font-size: 25px;
+    font-family: Martel;
+    /* font-weight: bold; */
+    text-align: center;
+    color: #000000;
+    margin-top: -1%;
 }
 
 .homeTxtVariant2{
@@ -311,30 +518,22 @@ margin-left: 40%;
     margin-top: -1%;
 }
 
-.quote{
+.quote {
     color: #000000;
     font-size: 25px;
     font-family: Grandstander;
-    font-weight: 500;
-    width: 339px;
-    height: 242px;
-    text-align: center;
-    z-index: 1;
+    font-weight: 400;
 }
-.quoter{
-    color: #000000;
-    font-size: 25px;
-    font-family: Grandstander;
-    text-align: center;
-margin-top: -15%;
-    width: 339px;
-    height: 242px;
-    z-index: 1;
+
+.quoter {
+    margin-top: -20px;
+    font-weight: 300;
 }
 
 .quotePosition {
-    margin-top: -29%;
-    margin-left: 70%;
+    padding-top: 150px;
+    padding-left: 90px;
+    padding-right: 90px;
 }
 
 .ACT {
@@ -426,29 +625,29 @@ margin-top: -15%;
     padding-bottom: 4%;
 }
 
-.footerColor{
+.footerColor {
     background-color: #6D8DDF;
     height: min-content;
 }
 
-.logoFooter{
+.logoFooter {
     width: 136px;
     height: 101px;
     margin-top: 31px;
     margin-left: 136px;
 }
 
-.outer-FB-Footer{
+.outer-FB-Footer {
     margin-right: 7.5%;
     margin-top: -60px;
 }
 
-.fbFooter{
+.fbFooter {
     width: 58px;
-    height: 60px;   
+    height: 60px;
 }
 
-.rightTopText{
+.rightTopText {
     margin-top: 23px;
     margin-right: 16%;
     font-family: Grandstander;
@@ -457,7 +656,7 @@ margin-top: -15%;
     font-weight: 200;
 }
 
-.rightBottomText{
+.rightBottomText {
     margin-right: 16%;
     font-family: Grandstander;
     color: #D9D9D9;
@@ -465,22 +664,22 @@ margin-top: -15%;
     font-weight: 500;
 }
 
-.rightTextShift{
+.rightTextShift {
     margin-top: 15px;
 }
 
-.rightShrinkMargin{
+.rightShrinkMargin {
     margin-top: -25px;
 }
 
-.leftTopText{
+.leftTopText {
     font-family: Gorditas;
     font-size: 32px;
     color: #D9D9D9;
     margin-left: 136px;
 }
 
-.leftBottomText{
+.leftBottomText {
     font-family: Grandstander;
     font-size: 24px;
     color: #D9D9D9;
@@ -489,54 +688,39 @@ margin-top: -15%;
     margin-top: -27px;
 }
 
-.bGroundSplash{
-    background-image: url(../assets/colorSplash.png);
+.bGroundSplash {
+    background-image: url(../assets/colorPaint.png);
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: 100% 35%;
-    width: 489px;
+    width: auto;
     height: 493px;
-    margin-left: 65%;
-    margin-top: -40%;
-     filter: saturate(2);
-     z-index: -1;
-   /* filter: contrast(1); */
-opacity: 50%;
+    margin-left: -40px;
+    margin-top: 0px;
+
+    filter: brightness(500%);
+    filter: saturate(500%);
+    filter: contrast(200%);
+    filter: hue-rotate(500%);
+    opacity: 1;
 }
 
-.pawPrint{
-    background-image: url(../assets/pawprintImg.jpg);
+.kennelImg {
+    background-image: url(../assets/kennelBuid.jpeg);
     background-size: cover;
     background-repeat: no-repeat;
-    opacity: 7%;
-    z-index: -1;
-    
+    background-position: center;
+    border-radius: 40px;
+    width: auto;
+    height: 238px;
+    margin-left: 30%;
+    margin-top: 75px;
+
 }
 
-.overlay {
-    z-index: 1;
-}
+.anneImg {
+    background-image: url(../assets/Anne_w_Foster_Siams_rot_270.png);
+    background-size: cover;
+    background-repeat: no-repeat;
 
-.shiftUp{
-    margin-top: -11%;
-}
-.moveVol{
-    /* margin-top: 2%; */
-    margin-left: 25%;
-}
-.moveGiv{
-    margin-left: 23%;
-}
-.moveVolTxt{
-    margin-left: 12%;
-}
-
-.moveDonT{
-    margin-left: 69%;
-}
-.moveDonInf{
-    margin-left: 56%;
-}
-.moveGivT{
-    margin-left: 64%;
+    opacity: 50%;
 }
