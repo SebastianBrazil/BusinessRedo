@@ -172,6 +172,50 @@ body {
     margin-right: 21px;
     text-indent: 30px;
 }
+.serviceTxt {
+    color: #000000;
+    font-family: Martel;
+    font-size: 25px;
+    text-align: left;
+    margin-top: 20px;
+    margin-left: 150px;
+    margin-right: -20px;
+    
+}
+.serviceTitle {
+    color: #000000;
+    font-family: Inika;
+    font-size: 30px;
+    text-align: left;
+    margin-top: 20px;
+    margin-left: 150px;
+    margin-right: -20px;
+    text-align: center;
+    
+}
+.dropPickList{
+    background-color: #6D8DDF;
+    margin-right: 90px;
+    margin-left: 60px;
+   
+    
+    
+}
+.serviceListTitle {
+font-size: 25px;
+font-family: Inika;
+font-weight: bold;
+color: #FFFFFF;
+text-align: center;
+}
+.serviceListTxt {
+font-size: 20px;
+font-family: Inika;
+font-weight: bold;
+color: #FFFFFF;
+text-align: center;
+margin-top: -10px;
+}
 
 .extraMargin {
     margin-top: 50px;
@@ -1034,4 +1078,59 @@ body {
     text-shadow: 1px 5px 5px black;
     transform: rotate(-45deg);
     margin-top: 90px;
+}
+
+.serviceBgColor{
+background-color: #E8E8E8;
+}
+.neutSpayTitle {
+    color:#0C41CA;
+    font-family: InikaBold;
+    font-size: 48px;
+    text-align: center;
+}
+.neutSpayH2 {
+    color:#0C41CA;
+    font-family: InikaBold;
+    font-size: 30px;
+    text-align: center;
+    margin-top: -20px;
+}
+.serviceDogs {
+    font-family: Martel;
+    font-weight: bold;
+    font-size: 20px;
+    color: #000000;
+    text-decoration: underline;
+    text-align: center;
+}
+.serviceDogsTxt {
+    font-family: Martel;
+    font-size: 20px;
+    color: #000000;
+   text-align: center;
+   margin-top: -10px;
+}
+.serviceCall {
+    font-family: Martel;
+    font-size: 20px;
+    color: #000000;
+   text-align: center;
+   margin-top: -10px;
+   margin-left: 150px;
+   margin-right: -100px;
+}
+.serviceInfoShift {
+    margin-left: 105px;
+}
+.serviceShiftMale {
+    margin-right: 400px;
+    margin-left: -50px;
+}
+.serviceShiftFemale {
+    margin-right: -500px;
+    margin-left: -500px;
+}
+.callShift{
+    margin-left: 50px;
 }
