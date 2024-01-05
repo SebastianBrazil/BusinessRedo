@@ -302,3 +302,52 @@ body {
     filter: hue-rotate(500%);
     opacity: 1;
 }
+
+.kennelImg {
+    background-image: url(../assets/kennelBuid.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 40px;
+    width: auto;
+    height: 238px;
+    margin-left: 30%;
+    margin-top: 75px;
+
+}
+
+.anneImg {
+    background-image: url(../assets/Anne_w_Foster_Siams_rot_270.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 40px;
+    width: auto;
+    height: 390px;
+    margin-left: 30%;
+    margin-top: 75px;
+
+}
+
+.aboutTxt {
+    color: #000000;
+    font-family: Martel;
+    font-size: 25px;
+    line-height: 40px;
+
+    margin-top: 70px;
+    margin-left: 30px;
+    margin-right: 100px;
+
+    text-indent: 30px;
+}
+
+.subText {
+    color: #000000;
+    font-family: Martel;
+    font-size: 20px;
+
+    margin-top: 10px;
+    margin-left: 31%;
+    margin-bottom: 20px;
+}
