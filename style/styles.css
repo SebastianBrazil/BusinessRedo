@@ -29,6 +29,11 @@
 }
 
 @font-face {
+    font-family: MartelBold;
+    src: url(../assets/fonts/Martel-Bold.ttf);
+}
+
+@font-face {
     font-family: Pacifico;
     src: url(../assets/fonts/Pacifico-Regular.ttf);
 }
@@ -40,7 +45,6 @@
 
 body {
     background-image: url(../assets/bgPaws.png);
-    background-size: cover;
 }
 
 .bGroundOne {
@@ -144,14 +148,16 @@ body {
     font-size: 32px;
     color: #000000;
     text-align: center;
-    margin-top: 3%;
-    /* font-weight: bold; */
-    width: 1290px;
-    height: 336px;
-    margin-left: 6%;
+    margin-left: 120px;
+    margin-right: 120px;
+    margin-top: 30px;
 }
 
-.Bold{
+.counterHeadHelp {
+    margin-top: -20px;
+}
+
+.Bold {
     font-family: InikaBold;
 }
 
@@ -172,6 +178,7 @@ body {
     margin-right: 21px;
     text-indent: 30px;
 }
+
 .serviceTxt {
     color: #000000;
     font-family: Martel;
@@ -180,8 +187,9 @@ body {
     margin-top: 20px;
     margin-left: 150px;
     margin-right: -20px;
-    
+
 }
+
 .serviceTitle {
     color: #000000;
     font-family: Inika;
@@ -191,30 +199,30 @@ body {
     margin-left: 150px;
     margin-right: -20px;
     text-align: center;
-    
+
 }
-.dropPickList{
+
+.dropPickList {
     background-color: #6D8DDF;
     margin-right: 90px;
     margin-left: 60px;
-   
-    
-    
 }
+
 .serviceListTitle {
-font-size: 25px;
-font-family: Inika;
-font-weight: bold;
-color: #FFFFFF;
-text-align: center;
+    font-size: 25px;
+    font-family: Inika;
+    font-weight: bold;
+    color: #FFFFFF;
+    text-align: center;
 }
+
 .serviceListTxt {
-font-size: 20px;
-font-family: Inika;
-font-weight: bold;
-color: #FFFFFF;
-text-align: center;
-margin-top: -10px;
+    font-size: 20px;
+    font-family: Inika;
+    font-weight: bold;
+    color: #FFFFFF;
+    text-align: center;
+    margin-top: -10px;
 }
 
 .extraMargin {
@@ -286,11 +294,14 @@ margin-top: -10px;
 
 .contactInf {
     font-size: 32px;
-    font-family: Inika;
-    font-weight: bold;
+    font-family: InikaBold;
     color: #000000;
     text-align: center;
     height: 25px;
+}
+
+.shiftUp {
+    margin-top: -20px;
 }
 
 .manyWaysToHelp {
@@ -298,107 +309,128 @@ margin-top: -10px;
     font-size: 40px;
     color: #000000;
     text-align: center;
-    margin-top: 8%;
+    margin-top: 100px;
+    margin-bottom: 30px;
+}
+
+.leftHelpTitles {
+    font-size: 30px;
+    font-family: InikaBold;
+    color: #000000;
+    margin-left: 130px;
+    margin-top: 15px;
+    margin-bottom: -5px;
+}
+
+.leftHelpTxt {
+    font-size: 25px;
+    font-family: Martel;
+    color: #000000;
+    margin-left: 130px;
+    margin-bottom: 50px;
+}
+
+.rightHelpTitles {
+    font-size: 30px;
+    font-family: InikaBold;
+    color: #000000;
+    margin-left: -110px;
+    margin-top: 15px;
+    margin-bottom: -5px;
+}
+
+.rightHelpTxt {
+    font-size: 25px;
+    font-family: Martel;
+    color: #000000;
+    margin-left: 55px;
+    margin-right: 110px;
 }
 
 .volunteer {
     background-image: url(../assets/volunteer.jpeg);
-    width: 452px;
-    height: 326px;
     background-size: cover;
-    background-position: 50% 100%;
-    margin-left: 15%;
-    /* margin-top: -60%; */
-    /* border-radius: 25px; */
+    background-repeat: no-repeat;
+    background-position: center;
+    width: auto;
+    height: 326px;
     border: 15px solid #6D8DDF;
-}
 
-.helpTitles {
-    font-size: 30px;
-    font-family: Inika;
-    font-weight: bold;
-    color: #000000;
-
-}
-
-.helpTxt {
-    font-size: 25px;
-    font-family: Martel;
-    color: #000000;
-    width: 570px;
-    height: 312px;
+    margin-left: 160px;
+    margin-right: 45px;
 }
 
 .donate {
     background-image: url(../assets/donate.jpg);
-    width: 452px;
-    height: 326px;
     background-size: cover;
-    background-position: 50% 100%;
-    margin-left: 57%;
-    margin-top: -47.69%;
-    /* border-radius: 25px; */
+    background-repeat: no-repeat;
+    background-position: center;
+    width: auto;
+    height: 326px;
     border: 15px solid #6D8DDF;
+
+    margin-left: 55px;
+    margin-right: 150px;
 }
 
 .plannedGiv {
     background-image: url(../assets/giving.png);
-    width: 452px;
-    height: 326px;
     background-size: cover;
-    background-position: 50% 100%;
-    margin-left: 15%;
-    /* margin-left: 5%;
- margin-top: -60%; */
-    /* border-radius: 25px; */
+    background-repeat: no-repeat;
+    background-position: center;
+    width: auto;
+    height: 326px;
     border: 15px solid #6D8DDF;
+
+    margin-left: 160px;
+    margin-right: 45px;
 }
 
 .cansForCrits {
     background-image: url(../assets/recycle.jpg);
-    width: 452px;
-    height: 326px;
     background-size: cover;
-    background-position: 50% 100%;
-    margin-left: 57%;
-    margin-top: -47.69%;
-    /* margin-left: 5%;
- margin-top: -60%; */
-    /* border-radius: 25px; */
+    background-repeat: no-repeat;
+    background-position: center;
+    width: auto;
+    height: 326px;
     border: 15px solid #6D8DDF;
+
+    margin-left: 55px;
+    margin-right: 150px;
 }
 
 .currDonation {
     font-size: 35px;
-    font-weight: bold;
-    font-family: Martel;
-    text-align: center;
-    margin-top: -4%;
+    font-family: MartelBold;
+    margin-top: 60px;
+    margin-bottom: -1px;
     color: #000000;
 }
 
 .donationH2 {
     font-size: 25px;
     font-family: Martel;
-    text-align: center;
+    margin-bottom: 50px;
     color: #000000;
 }
 
 .donationItem {
     font-size: 25px;
-    font-family: Martel;
-    font-weight: bold;
-    text-align: center;
+    font-family: MartelBold;
     color: #000000;
+    margin-bottom: 50px;
 }
 
 .donationItemDesc {
     font-size: 25px;
     font-family: Martel;
-    /* font-weight: bold; */
-    text-align: center;
     color: #000000;
-    margin-top: -1%;
+    margin-top: -50px;
+    margin-bottom: 50px;
+}
+
+.marginBtm {
+    margin-bottom: 70px;
 }
 
 .quote {
@@ -634,468 +666,25 @@ margin-top: -10px;
     margin-bottom: 20px;
 }
 
-.adoptText {
-    color: #000000;
-    font-family: Martel;
-    font-size: 25px;
-    margin-top: 60px;
-    margin-left: 139px;
-    margin-right: 139px;
-    margin-bottom: 50px;
+.serviceBgColor {
+    background-color: #E8E8E8;
 }
 
-.adoptHead {
-    font-family: Inika;
-    font-size: 38px;
-    color: #000000;
-    margin-top: 35px;
-}
-
-.adoptSubHead {
-    font-family: Inika;
-    font-size: 30px;
-    color: #000000;
-    margin-top: 10px;
-    margin-bottom: 70px;
-    margin-left: 150px;
-    margin-right: 100px;
-    text-indent: 30px;
-}
-
-.blueAdopt {
-    background-color: #6D8DDF;
-}
-
-.addTopSpace {
-    padding-top: 50px;
-}
-
-.addMoreTopSpace {
-    padding-top: 140px;
-}
-
-.addBottomSpace {
-    padding-bottom: 150px;
-}
-
-.adopt1 {
-    background-image: url(../assets/AdoptACatPics/ACT-Adoptable-Cats~~element295.png);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    height: 280px;
-    width: 300px;
-    margin-right: 10px;
-}
-
-.adopt2 {
-    background-image: url(../assets/AdoptACatPics/ACT-Adoptable-Cats~~element287.png);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    width: 300px;
-    height: 280px;
-    margin-right: 10px;
-    margin-left: 10px;
-}
-
-.adopt3 {
-    background-image: url(../assets/AdoptACatPics/ACT-Adoptable-Cats~~element141.png);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    width: 300px;
-    height: 280px;
-    margin-right: 10px;
-    margin-left: 10px;
-}
-
-.adopt4 {
-    background-image: url(../assets/AdoptACatPics/Lottie_1.png);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    width: 300px;
-    height: 280px;
-    margin-left: 10px;
-}
-
-.adopt5 {
-    background-image: url(../assets/AdoptACatPics/ACT-Adoptable-Cats~~element289.png);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    height: 280px;
-    width: 300px;
-    margin-right: 10px;
-}
-
-.adopt6 {
-    background-image: url(../assets/AdoptACatPics/ACT-Adoptable-Cats~~element297.png);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    width: 300px;
-    height: 280px;
-    margin-right: 10px;
-    margin-left: 10px;
-}
-
-.adopt7 {
-    background-image: url(../assets/AdoptACatPics/ACT-Adoptable-Cats~~element180.png);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    width: 300px;
-    height: 280px;
-    margin-right: 10px;
-    margin-left: 10px;
-}
-
-.adopt8 {
-    background-image: url(../assets/AdoptACatPics/ACT-Adoptable-Cats~~element311.png);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    width: 300px;
-    height: 280px;
-    margin-left: 10px;
-}
-
-.adopt9 {
-    background-image: url(../assets/AdoptACatPics/ACT-Adoptable-Cats~~element65.png);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    height: 280px;
-    width: 300px;
-    margin-right: 10px;
-}
-
-.adopt10 {
-    background-image: url(../assets/AdoptACatPics/10.png);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    width: 300px;
-    height: 280px;
-    margin-right: 10px;
-    margin-left: 10px;
-}
-
-.adopt11 {
-    background-image: url(../assets/AdoptACatPics/11.png);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    width: 300px;
-    height: 280px;
-    margin-right: 10px;
-    margin-left: 10px;
-}
-
-.adopt12 {
-    background-image: url(../assets/AdoptACatPics/12.png);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    width: 300px;
-    height: 280px;
-    margin-left: 10px;
-}
-
-.styleBtn {
-    background-color: #6D8DDF;
-    color: #FFFFFF;
-    font-family: Martel;
-    font-size: 25px;
-    text-align: center;
-
-    border-radius: 30px;
-    width: 311px;
-    height: 112px;
-
-    padding-top: 40px;
-    margin-top: -10px;
-    margin-bottom: 100px;
-}
-
-.adoptName {
-    margin-top: 290px;
-    font-family: Courgette;
-    color: #FFFFFF;
-    font-size: 32px;
-}
-
-.adoptAge {
-    margin-top: -25px;
-    font-family: Courgette;
-    color: #FFFFFF;
-    font-size: 24px;
-}
-
-.adoptNameShort {
-    margin-top: 102px;
-    font-family: Courgette;
-    color: #FFFFFF;
-    font-size: 32px;
-}
-
-.adoptAgeShort {
-    margin-top: -23px;
-    font-family: Courgette;
-    color: #FFFFFF;
-    font-size: 24px;
-}
-
-.adoptAdopted {
-    font-family: Courgette;
-    color: #FFFFFF;
-    font-size: 64px;
-    text-shadow: 1px 5px 5px black;
-    transform: rotate(-45deg);
-    margin-top: 90px;
-}
-
-.adoptText {
-    color: #000000;
-    font-family: Martel;
-    font-size: 25px;
-    margin-top: 60px;
-    margin-left: 139px;
-    margin-right: 139px;
-    margin-bottom: 50px;
-}
-
-.adoptHead {
-    font-family: Inika;
-    font-size: 38px;
-    color: #000000;
-    margin-top: 35px;
-}
-
-.adoptSubHead {
-    font-family: Inika;
-    font-size: 30px;
-    color: #000000;
-    margin-top: 10px;
-    margin-bottom: 70px;
-    margin-left: 150px;
-    margin-right: 100px;
-    text-indent: 30px;
-}
-
-.blueAdopt {
-    background-color: #6D8DDF;
-}
-
-.addTopSpace {
-    padding-top: 50px;
-}
-
-.addMoreTopSpace {
-    padding-top: 140px;
-}
-
-.addBottomSpace {
-    padding-bottom: 150px;
-}
-
-.adopt1 {
-    background-image: url(../assets/AdoptACatPics/ACT-Adoptable-Cats~~element295.png);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    height: 280px;
-    width: 300px;
-    margin-right: 10px;
-}
-
-.adopt2 {
-    background-image: url(../assets/AdoptACatPics/ACT-Adoptable-Cats~~element287.png);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    width: 300px;
-    height: 280px;
-    margin-right: 10px;
-    margin-left: 10px;
-}
-
-.adopt3 {
-    background-image: url(../assets/AdoptACatPics/ACT-Adoptable-Cats~~element141.png);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    width: 300px;
-    height: 280px;
-    margin-right: 10px;
-    margin-left: 10px;
-}
-
-.adopt4 {
-    background-image: url(../assets/AdoptACatPics/Lottie_1.png);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    width: 300px;
-    height: 280px;
-    margin-left: 10px;
-}
-
-.adopt5 {
-    background-image: url(../assets/AdoptACatPics/ACT-Adoptable-Cats~~element289.png);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    height: 280px;
-    width: 300px;
-    margin-right: 10px;
-}
-
-.adopt6 {
-    background-image: url(../assets/AdoptACatPics/ACT-Adoptable-Cats~~element297.png);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    width: 300px;
-    height: 280px;
-    margin-right: 10px;
-    margin-left: 10px;
-}
-
-.adopt7 {
-    background-image: url(../assets/AdoptACatPics/ACT-Adoptable-Cats~~element180.png);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    width: 300px;
-    height: 280px;
-    margin-right: 10px;
-    margin-left: 10px;
-}
-
-.adopt8 {
-    background-image: url(../assets/AdoptACatPics/ACT-Adoptable-Cats~~element311.png);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    width: 300px;
-    height: 280px;
-    margin-left: 10px;
-}
-
-.adopt9 {
-    background-image: url(../assets/AdoptACatPics/ACT-Adoptable-Cats~~element65.png);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    height: 280px;
-    width: 300px;
-    margin-right: 10px;
-}
-
-.adopt10 {
-    background-image: url(../assets/AdoptACatPics/10.png);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    width: 300px;
-    height: 280px;
-    margin-right: 10px;
-    margin-left: 10px;
-}
-
-.adopt11 {
-    background-image: url(../assets/AdoptACatPics/11.png);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    width: 300px;
-    height: 280px;
-    margin-right: 10px;
-    margin-left: 10px;
-}
-
-.adopt12 {
-    background-image: url(../assets/AdoptACatPics/12.png);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    width: 300px;
-    height: 280px;
-    margin-left: 10px;
-}
-
-.styleBtn {
-    background-color: #6D8DDF;
-    color: #FFFFFF;
-    font-family: Martel;
-    font-size: 25px;
-    text-align: center;
-
-    border-radius: 30px;
-    width: 311px;
-    height: 112px;
-
-    padding-top: 40px;
-    margin-top: -10px;
-    margin-bottom: 100px;
-}
-
-.adoptName {
-    margin-top: 290px;
-    font-family: Courgette;
-    color: #FFFFFF;
-    font-size: 32px;
-}
-
-.adoptAge {
-    margin-top: -25px;
-    font-family: Courgette;
-    color: #FFFFFF;
-    font-size: 24px;
-}
-
-.adoptNameShort {
-    margin-top: 102px;
-    font-family: Courgette;
-    color: #FFFFFF;
-    font-size: 32px;
-}
-
-.adoptAgeShort {
-    margin-top: -23px;
-    font-family: Courgette;
-    color: #FFFFFF;
-    font-size: 24px;
-}
-
-.adoptAdopted {
-    font-family: Courgette;
-    color: #FFFFFF;
-    font-size: 64px;
-    text-shadow: 1px 5px 5px black;
-    transform: rotate(-45deg);
-    margin-top: 90px;
-}
-
-.serviceBgColor{
-background-color: #E8E8E8;
-}
 .neutSpayTitle {
-    color:#0C41CA;
+    color: #0C41CA;
     font-family: InikaBold;
     font-size: 48px;
     text-align: center;
 }
+
 .neutSpayH2 {
-    color:#0C41CA;
+    color: #0C41CA;
     font-family: InikaBold;
     font-size: 30px;
     text-align: center;
     margin-top: -20px;
 }
+
 .serviceDogs {
     font-family: Martel;
     font-weight: bold;
@@ -1104,33 +693,39 @@ background-color: #E8E8E8;
     text-decoration: underline;
     text-align: center;
 }
+
 .serviceDogsTxt {
     font-family: Martel;
     font-size: 20px;
     color: #000000;
-   text-align: center;
-   margin-top: -10px;
+    text-align: center;
+    margin-top: -10px;
 }
+
 .serviceCall {
     font-family: Martel;
     font-size: 20px;
     color: #000000;
-   text-align: center;
-   margin-top: -10px;
-   margin-left: 150px;
-   margin-right: -100px;
+    text-align: center;
+    margin-top: -10px;
+    margin-left: 150px;
+    margin-right: -100px;
 }
+
 .serviceInfoShift {
     margin-left: 105px;
 }
+
 .serviceShiftMale {
     margin-right: 400px;
     margin-left: -50px;
 }
+
 .serviceShiftFemale {
     margin-right: -500px;
     margin-left: -500px;
 }
-.callShift{
+
+.callShift {
     margin-left: 50px;
 }
