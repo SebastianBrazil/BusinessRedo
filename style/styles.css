@@ -952,3 +952,250 @@ body {
     transform: rotate(-45deg);
     margin-top: 90px;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.servicesImgDog {
+    background-image: url(../assets/image\ \(4\).png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 25px;
+    width: auto;
+    height: 238px;
+    /* margin-bottom: 0px; */
+    margin-left: 650px;
+    margin-top: 10px;
+    margin-right: -350px;
+}
+.serviceSurgInf {
+    font-family: Martel;
+    font-weight: bold;
+    font-size: 20px;
+    color: #000000;
+    margin-top: -10px;
+    text-align: center;
+}
+
+.serviceCats {
+    font-family: Martel;
+    font-weight: bold;
+    font-size: 20px;
+    color: #000000;
+    text-decoration: underline;
+    text-align: center;
+}
+
+.serviceCatsTxt {
+    font-family: Martel;
+    font-size: 20px;
+    color: #000000;
+    text-align: center;
+    margin-top: -10px;
+}
+.shiftFemaleCatFix {
+    margin-right: -500px;
+    margin-left: -480px;
+}
+.shiftMaleCatFix {
+    margin-right: 400px;
+    margin-left: -30px;
+}
+
+.servicesImgCat {
+    background-image: url(../assets/image\ \(5\).png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 25px;
+    width: auto;
+    height: 238px;
+    /* margin-bottom: 0px; */
+    margin-left: 650px;
+    margin-top: -20px;
+    margin-right: -430px;
+}
+.rabVac {
+    font-size: 17px;
+    color: #000000;
+    font-weight: bold;
+    font-family: Martel;
+    text-align: center;
+    margin-top: -70px;
+}
+.serviceSurgInfCat{
+    font-family: Martel;
+    font-weight: bold;
+    font-size: 20px;
+    color: #000000;
+    margin-top: -10px;
+    text-align: center;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.servVacBgColor {
+    background-color: #6D8DDF;
+}
+.vacTitle {
+    color: #FFFFFF;
+    font-family: InikaBold;
+    font-size: 48px;
+    text-align: center;
+}
+
+.vacH2 {
+    color: #FFFFFF;
+    font-family: InikaBold;
+    font-size: 30px;
+    text-align: center;
+    margin-top: -20px;
+}
+
+.dogVacImg {
+    background-image: url(../assets/image\ \(6\).png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 25px;
+    width: auto;
+    height: 456px;
+    /* margin-bottom: 0px; */
+    margin-left: 100px;
+    margin-top: -20px;
+    margin-right: -50px;
+}
+
+.vacInfo {
+    font-family: Inika;
+    font-size: 30px;
+    color: #000000;
+    margin-top: -25px;
+    margin-bottom: 70px;
+    margin-left: 50px;
+    margin-right: -100px;
+    text-indent: 30px;
+}
+.vacInfo2 {
+    font-family: Inika;
+    font-size: 30px;
+    color: #000000;
+    margin-top: -35px;
+    margin-bottom: 70px;
+    margin-left: 50px;
+    margin-right: -100px;
+    text-indent: 30px;
+}
+.vacInfoPrice {
+    font-family: Inika;
+    font-size: 30px;
+    color: #000000;
+    margin-top: -25px;
+    margin-bottom: 70px;
+    margin-left: -60px;
+    margin-right: -100px;
+    text-indent: 30px;
+}
+.vacInfoPrice2 {
+    font-family: Inika;
+    font-size: 30px;
+    color: #000000;
+    margin-top: -35px;
+    margin-bottom: 70px;
+    margin-left: -60px;
+    margin-right: -100px;
+    text-indent: 30px;
+}
+
+.addServInfo {
+    font-family: Inika;
+    font-size: 30px;
+    color: #000000;
+    margin-top: -25px;
+    margin-bottom: 70px;
+    margin-left: 150px;
+    margin-right: -100px;
+    text-indent: 30px;
+}
+.addServInfo2 {
+    font-family: Inika;
+    font-size: 30px;
+    color: #000000;
+    margin-top: -35px;
+    margin-bottom: 70px;
+    margin-left: 150px;
+    margin-right: 50px;
+    text-indent: 30px;
+}
+
+.addServInfo2Fix {
+    font-family: Inika;
+    font-size: 30px;
+    color: #000000;
+    margin-top: -35px;
+    margin-bottom: 70px;
+    margin-left: 175px;
+    margin-right: -100px;
+    
+    text-align: left;
+}
+
+.addInfoPrice {
+    font-family: Inika;
+    font-size: 30px;
+    color: #000000;
+    margin-top: 20px;
+    margin-bottom: 70px;
+    margin-left: 150px;
+    margin-right: -100px;
+    text-indent: 30px;
+}
+.addInfoPrice2 {
+    font-family: Inika;
+    font-size: 30px;
+    color: #000000;
+    margin-top: -35px;
+    margin-bottom: 70px;
+    margin-left: 150px;
+    margin-right: -100px;
+    text-indent: 30px;
+}
+.addInfoPrice2Fix {
+    font-family: Inika;
+    font-size: 30px;
+    color: #000000;
+    margin-top: 20px;
+    margin-bottom: 70px;
+    margin-left: 150px;
+    margin-right: -100px;
+    text-indent: 30px;
+}
+
+.fleaTreatment {
+    background-image: url(../assets/flea_treatment.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 25px;
+    width: auto;
+    height: 290px;
+    /* margin-bottom: 0px; */
+    margin-left: -140px;
+    margin-top: 80px;
+    margin-right: 100px;
+}
+
+
+
