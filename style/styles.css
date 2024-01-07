@@ -1401,4 +1401,52 @@ body {
     .blueb {
         height: 43px
     }
+
+    .logoFooter {
+        width: 136px;
+        height: 101px;
+        margin-top: 10px;
+        margin-left: 65%;
+    }
+
+    .rightTopText {
+        margin-top: 70px;
+        margin-right: 1%;
+        font-size: 20px;
+    }
+
+    .leftTopText {
+        font-size: 20px;
+        margin-left: 140px;
+        margin-top: -140px;
+    }
+
+    .leftBottomText {
+        font-size: 14px;
+        margin-left: 194px;
+        margin-top: -170px;
+    }
+
+    .fbFooter {
+        width: 46px;
+        height: 47px;
+    }
+
+    .outer-FB-Footer {
+        margin-right: 1%;
+        margin-top: -15px;
+    }
+
+    .rightBottomText {
+        margin-right: 1%;
+        font-size: 16px;
+    }
+    
+    .rightTextShift {
+        margin-top: 5px;
+    }
+    
+    .rightShrinkMargin {
+        margin-top: -23px;
+    }
 }
