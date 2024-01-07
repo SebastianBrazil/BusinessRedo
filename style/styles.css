@@ -1401,4 +1401,20 @@ body {
     .blueb {
         height: 43px
     }
+    .homeTxt {
+        color: #000000;
+        font-family: Martel;
+        text-align: start;
+        font-size: 16px;
+        /* font-size: 25px;
+        margin-top: 20px;
+        margin-left: 150px;
+        margin-right: 21px;
+        /* text-indent: 30px;  */
+        width: 150%;
+        margin-left: 10px;
+        
+    
+    }
+
 }
