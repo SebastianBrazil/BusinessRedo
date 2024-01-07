@@ -1464,4 +1464,271 @@ body {
         
     
     }
+    .bGroundSplash{
+        width: 211px;
+        margin-left: -300px;
+        margin-top: 500px;
+        
+    }
+    .head{
+        font-size: 20px;
+    }
+    .quote{
+        font-size: 16px;
+        width: 363px;
+        margin-left: 50px;
+    }
+    .quotePosition{
+        width: 300%;
+    }
+    .aboutTxt{
+        font-size: 16px;
+        width: 150%;
+        margin-top: 350px;
+        margin-left: -130px;
+    }
+    .kennelImg{
+        width: 250%;
+        margin-left: 50px;
+        
+    }
+    .anneImg{
+        width: 250%;
+        height: 333px;
+        margin-top: 400px;
+        margin-left: 60px;
+    }
+    .subText{
+        opacity: 0%;
+    }
+    .locText{
+        font-size: 16px;
+        width: 180%;
+        margin-top: 5px;
+        margin-left: 5px;
+        text-indent: 0px;
+    }
+    .MAPMAMAPMAPMAP{
+        height: 199px;
+        width: 257px;
+        margin-left: -170px;
+        margin-top: 300px;
+    }
+    .blueAdopt{
+        background-color: #D9D9D9;
+    }
+    .notFrontBuilding{
+width: 253px;
+height: 196px;
+margin-left:70px;
+
+    }
+    .frontBuilding{
+        width: 253px;
+height: 196px;
+margin-top: 350px;
+margin-left:-143px;
+    }
+    .leftClinicText{
+font-size: 16px;
+width: 314px;
+margin-top: -330px;
+margin-left: 40px;
+    }
+    .rightClinicText{
+font-size: 16px;
+width: 314px;
+margin-left: -170px;
+margin-top: -20px;
+    }
+    .serviceTitle{
+        font-size: 20px;
+        margin-left: 70px;
+        margin-right: -150px;
+    }
+    .serviceTxt{
+        font-size: 16px;
+        width: 388px;
+        /* height: 250px; */
+        margin-left: 10px;
+        
+    }
+    .serviceListTitle{
+font-size: 20px;
+    }
+    .serviceListTxt{
+        font-size: 15px;
+        /* width: 416px; */
+        /* height: 486px; */
+    }
+    .dropPickList{
+        width: 416px;
+        height: 530px;
+        margin-left: -221px;
+        margin-top: 700px;
+    }
+    .neutSpayTitle{
+font-size: 26px;
+    }
+    .neutSpayH2{
+font-size: 18px;
+    }
+    .serviceDogs{
+font-size: 18px;
+margin-left: -120px;
+    }
+    .serviceDogsTxt{
+font-size: 18px;
+width: 184px;
+margin-left: -120px;
+    }
+    .serviceCall{
+        font-size: 18px;
+        width: 173px;
+        height: 39px;
+        margin-top: -275px;
+        margin-left: 230px;
+    }
+    .serviceSurgInf{
+        font-size: 12px;
+        
+    }
+    .serviceCats{
+font-size: 18px;
+    }
+    .serviceCatsTxt{
+        font-size: 18px;
+        width: 110px;
+        margin-left: -30px;
+    }
+    .rabVac{
+        font-size: 11px;
+        margin-left: 100px;
+        margin-right: -100px;
+    }
+    .serviceSurgInfCat{
+        font-size: 12px;
+        width: 389px;
+        margin-left: -2px;
+    }
+    .dogVacImg{
+        opacity: 0%;
+    }
+    .vacTitle{
+font-size: 26px;
+    }
+    .vacH2{
+        font-size: 18px;
+    }
+    .vacInfo{
+font-size: 18px;
+width: 225px;
+margin-left: -200px;
+    }
+    .vacInfo2{
+font-size: 18px;
+width: 225px;
+margin-left: -200px;
+    }
+    .vacInfoPrice{
+        font-size: 18px;
+    }
+    .vacInfoPrice2{
+        font-size: 18px;
+    }
+    .vacSubText{
+        width: 399px;
+        font-size: 12px;
+        margin-left: 5px;
+    }
+    .fleaTreatment{
+        opacity: 0%;
+    }
+    .addServInfo{
+font-size: 18px;
+width: 213px;
+margin-left: 10px;
+    }
+    .addServInfo2{
+font-size: 18px;
+width: 220px;
+margin-left: 10px;
+    }
+    .addServInfo2Fix{
+font-size: 18px;
+width: 213px;
+margin-left: 10px;
+    }
+    .addInfoPrice{
+font-size: 18px;
+    }
+    .addInfoPrice2{
+font-size: 18px;
+    }
+    .addInfoPrice2Fix{
+font-size: 18px;
+width: 123px;
+margin-top: 50px;
+    }
+    .adoptHead{
+        font-size: 20px;
+    }
+    .adoptSubHead{
+        font-size: 18px;
+        width: 366px;
+        margin-left: 30px;
+    }
+    .adoptText{
+        font-size: 16px;
+        width: 334px;
+        margin-left: 30px;
+    }
+    .styleBtn{
+        font-size: 20px;
+    }
+    .headVariant2{
+        font-size: 20px;
+        width: 373px;
+        margin-left: 20px;
+    }
+    .feralTrap{
+        width: 342px;
+        height: 223px;
+        margin-left: 30px;
+        margin-top: -20px;
+    }
+    .catTrapInfo{
+        font-size: 20px;
+        width: 373px;
+        margin-left: 20px;
+        
+    }
+    .feralCatFacts{
+font-size: 20px;
+width: 295px;
+margin-left: -90px;
+text-align: center;
+margin-top: 300px;
+    }
+    .homeTxtVariant2{
+width: 373px;
+font-size: 16px;
+margin-left: -105px;
+margin-top: -5px;
+    }
+    .angryFeral{
+        width: 342px;
+        height: 223px;
+        margin-left: 20px;
+        margin-top: 1400px;
+    }
+    .feralApptInfo{
+        width: 373px;
+        font-size: 16px;
+        margin-left: 10px;
+    }
+    .imptApptMess{
+        font-size: 16px;
+    }
+    
 }
