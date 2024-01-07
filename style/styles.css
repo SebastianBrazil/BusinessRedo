@@ -9,6 +9,11 @@
 }
 
 @font-face {
+    font-family: Script;
+    src: url(../assets/fonts/KaushanScript-Regular.ttf);
+}
+
+@font-face {
     font-family: Inika;
     src: url(../assets/fonts/Inika-Regular.ttf);
 }
@@ -183,11 +188,10 @@ body {
     color: #000000;
     font-family: Martel;
     font-size: 25px;
-    text-align: left;
     margin-top: 20px;
-    margin-left: 150px;
-    margin-right: -20px;
-
+    margin-left: 130px;
+    margin-right: -30px;
+    line-height: 42px;
 }
 
 .serviceTitle {
@@ -196,7 +200,7 @@ body {
     font-size: 30px;
     text-align: left;
     margin-top: 20px;
-    margin-left: 150px;
+    margin-left: 80px;
     margin-right: -20px;
     text-align: center;
 
@@ -204,25 +208,33 @@ body {
 
 .dropPickList {
     background-color: #6D8DDF;
-    margin-right: 90px;
+    margin-right: 70px;
     margin-left: 60px;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 .serviceListTitle {
     font-size: 25px;
     font-family: Inika;
-    font-weight: bold;
     color: #FFFFFF;
     text-align: center;
+    padding-top: 20px;
+}
+
+.fitServiceListTxt{
+    margin-right: -15px;
+    margin-left: -15px;
+    padding-bottom: 25px;
+    text-decoration: underline;
 }
 
 .serviceListTxt {
     font-size: 20px;
     font-family: Inika;
-    font-weight: bold;
     color: #FFFFFF;
     text-align: center;
-    margin-top: -10px;
+    margin-top: -15px;
 }
 
 .extraMargin {
@@ -953,7 +965,7 @@ body {
     margin-top: 90px;
 }
 
-.locText{
+.locText {
     color: #000000;
     font-family: Martel;
     font-size: 25px;
@@ -964,12 +976,12 @@ body {
     line-height: 40px;
 }
 
-.linkLoc{
+.linkLoc {
     color: #000000;
     font-family: MartelBold;
 }
 
-.MAPMAMAPMAPMAP{
+.MAPMAMAPMAPMAP {
     background-image: url(../assets/Goggle_Map_Clinic.png);
     background-size: cover;
     background-repeat: no-repeat;
@@ -983,48 +995,45 @@ body {
     margin-bottom: 20px;
 }
 
-.frontBuilding{
+.frontBuilding {
     background-image: url(../assets/Frnt_Bldg_View.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     width: auto;
     height: 426px;
-    
+
     margin-top: 30px;
     margin-bottom: 30px;
     margin-right: 100px;
     margin-left: 50px;
 }
 
-.notFrontBuilding{
+.notFrontBuilding {
     background-image: url(../assets/Bldg_View_from_East.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     width: auto;
     height: 426px;
-    
     margin-top: 30px;
     margin-bottom: 30px;
     margin-left: 134px;
     margin-right: -10px;
 }
 
-.leftClinicText{
+.leftClinicText {
     color: #000000;
     font-family: Martel;
     font-size: 30px;
-    
     margin-top: 20px;
     margin-left: 210px;
     margin-right: 30px;
     margin-bottom: 40px;
-
     line-height: 50px;
 }
 
-.rightClinicText{
+.rightClinicText {
     color: #000000;
     font-family: Martel;
     font-size: 30px;
@@ -1046,22 +1055,23 @@ body {
     width: auto;
     height: 238px;
     /* margin-bottom: 0px; */
-    margin-left: 650px;
+    margin-left: 680px;
     margin-top: 10px;
-    margin-right: -350px;
+    margin-right: -420px;
 }
+
 .serviceSurgInf {
-    font-family: Martel;
-    font-weight: bold;
+    font-family: MartelBold;
     font-size: 20px;
     color: #000000;
     margin-top: -10px;
+    margin-left: 35px;
+    margin-right: -30px;
     text-align: center;
 }
 
 .serviceCats {
-    font-family: Martel;
-    font-weight: bold;
+    font-family: MartelBold;
     font-size: 20px;
     color: #000000;
     text-decoration: underline;
@@ -1075,10 +1085,12 @@ body {
     text-align: center;
     margin-top: -10px;
 }
+
 .shiftFemaleCatFix {
     margin-right: -500px;
     margin-left: -480px;
 }
+
 .shiftMaleCatFix {
     margin-right: 400px;
     margin-left: -30px;
@@ -1092,22 +1104,21 @@ body {
     border-radius: 25px;
     width: auto;
     height: 238px;
-    /* margin-bottom: 0px; */
-    margin-left: 650px;
+    margin-left: 685px;
     margin-top: -20px;
-    margin-right: -430px;
+    margin-right: -485px;
 }
+
 .rabVac {
     font-size: 17px;
     color: #000000;
-    font-weight: bold;
-    font-family: Martel;
+    font-family: MartelBold;
     text-align: center;
     margin-top: -70px;
 }
-.serviceSurgInfCat{
-    font-family: Martel;
-    font-weight: bold;
+
+.serviceSurgInfCat {
+    font-family: MartelBold;
     font-size: 20px;
     color: #000000;
     margin-top: -10px;
@@ -1115,9 +1126,11 @@ body {
     margin-left: 100px;
     margin-right: 100px;
 }
+
 .servVacBgColor {
     background-color: #6D8DDF;
 }
+
 .vacTitle {
     color: #FFFFFF;
     font-family: InikaBold;
@@ -1141,7 +1154,6 @@ body {
     border-radius: 25px;
     width: auto;
     height: 456px;
-    /* margin-bottom: 0px; */
     margin-left: 100px;
     margin-top: -20px;
     margin-right: -50px;
@@ -1157,6 +1169,7 @@ body {
     margin-right: -100px;
     text-indent: 30px;
 }
+
 .vacInfo2 {
     font-family: Inika;
     font-size: 30px;
@@ -1167,25 +1180,25 @@ body {
     margin-right: -100px;
     text-indent: 30px;
 }
+
 .vacInfoPrice {
     font-family: Inika;
     font-size: 30px;
     color: #000000;
-    margin-top: -25px;
+    margin-top: -35px;
     margin-bottom: 70px;
-    margin-left: -60px;
-    margin-right: -100px;
-    text-indent: 30px;
+    margin-left: -30px;
+    margin-right: 100px;
 }
+
 .vacInfoPrice2 {
     font-family: Inika;
     font-size: 30px;
     color: #000000;
     margin-top: -35px;
     margin-bottom: 70px;
-    margin-left: -60px;
-    margin-right: -100px;
-    text-indent: 30px;
+    margin-left: -30px;
+    margin-right: 100px;
 }
 
 .addServInfo {
@@ -1194,19 +1207,18 @@ body {
     color: #000000;
     margin-top: -25px;
     margin-bottom: 70px;
-    margin-left: 150px;
+    margin-left: 175px;
     margin-right: -100px;
-    text-indent: 30px;
 }
+
 .addServInfo2 {
     font-family: Inika;
     font-size: 30px;
     color: #000000;
     margin-top: -35px;
     margin-bottom: 70px;
-    margin-left: 150px;
-    margin-right: 50px;
-    text-indent: 30px;
+    margin-left: 175px;
+    margin-right: -120px;
 }
 
 .addServInfo2Fix {
@@ -1216,9 +1228,7 @@ body {
     margin-top: -35px;
     margin-bottom: 70px;
     margin-left: 175px;
-    margin-right: -100px;
-    
-    text-align: left;
+    margin-right: -120px;
 }
 
 .addInfoPrice {
@@ -1227,10 +1237,10 @@ body {
     color: #000000;
     margin-top: 20px;
     margin-bottom: 70px;
-    margin-left: 150px;
+    margin-left: 175px;
     margin-right: -100px;
-    text-indent: 30px;
 }
+
 .addInfoPrice2 {
     font-family: Inika;
     font-size: 30px;
@@ -1241,6 +1251,7 @@ body {
     margin-right: -100px;
     text-indent: 30px;
 }
+
 .addInfoPrice2Fix {
     font-family: Inika;
     font-size: 30px;
@@ -1260,8 +1271,134 @@ body {
     border-radius: 25px;
     width: auto;
     height: 290px;
-    /* margin-bottom: 0px; */
     margin-left: -140px;
     margin-top: 80px;
     margin-right: 100px;
+}
+
+.vacSubText{
+    font-family: InikaBold;
+    font-size: 25px;
+    margin-bottom: 30px;
+    margin-left: 180px;
+    margin-right: 180px;
+}
+
+@media screen and (max-width: 991px) {
+    .header {
+        display: none;
+    }
+
+    .whiteGapHeader {
+        display: none;
+    }
+
+    .healHapp {
+        text-align: center;
+        margin-top: 130px;
+        margin-left: 60%;
+        margin-right: 0%;
+    }
+
+    .healthPet {
+        font-size: 20px;
+        font-family: Script;
+    }
+
+    .happLife {
+        font-size: 30px;
+    }
+
+    .bGroundOne {
+        height: 383px;
+        background-position: 55% 50%;
+        border: 5px solid #C0BA19;
+    }
+
+    .bGroundTwo {
+        height: 383px;
+        background-position: 55% 50%;
+        border: 5px solid #C0BA19;
+    }
+
+    .bGroundThree {
+        height: 383px;
+        background-position: 55% 50%;
+        border: 5px solid #C0BA19;
+    }
+
+    .bGroundFour {
+        height: 383px;
+        background-position: 55% 50%;
+        border: 5px solid #C0BA19;
+    }
+
+    .bGroundFive {
+        height: 383px;
+        background-position: 55% 50%;
+        border: 5px solid #C0BA19;
+    }
+
+    .bGroundFeral {
+        height: 383px;
+        background-position: 55% 50%;
+        border: 5px solid #C0BA19;
+    }
+
+    .bGroundHelp {
+        height: 383px;
+        background-position: 55% 50%;
+        border: 5px solid #C0BA19;
+    }
+
+    .ACT {
+        margin-top: -102px;
+        margin-left: 115px;
+        font-size: 15px;
+        text-shadow: 1px 5px 5px black;
+    }
+
+    .Logo {
+        margin-top: 3px;
+        margin-left: -9px;
+        width: 116px;
+        height: 101px;
+    }
+
+    .openNavBarPage {
+        background-image: url(../assets/image\ \(7\).png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        width: 69px;
+        height: 69px;
+        margin-top: -45px;
+        margin-right: -15px;
+    }
+
+    .navBarPage {
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        background-color: #C0BA19;
+        height: 100%;
+        width: 100%;
+    }
+
+    .mobileBtn {
+        padding-top: 80px;
+    }
+
+    .space{
+        padding-bottom: 20px;
+    }
+
+    .bluebTitle {
+        font-size: 25px;
+        padding-top: 3px;
+    }
+
+    .blueb {
+        height: 43px
+    }
 }
