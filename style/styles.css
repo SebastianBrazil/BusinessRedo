@@ -1730,5 +1730,70 @@ margin-top: -5px;
     .imptApptMess{
         font-size: 16px;
     }
-    
+    .headHelp{
+        font-size: 20px;
+        width: 382px;
+        margin-left: 20px;
+    }
+    .contactInf{
+        font-size: 20px;
+        margin-top: 50px;
+    }
+    .manyWaysToHelp{
+        font-size: 20px;
+    }
+    .volunteer{
+        width: 342px;
+        height: 223px;
+        margin-left: 30px;
+    }
+    .leftHelpTitles{
+font-size: 18px;
+margin-left: 170px;
+    }
+    .leftHelpTxt{
+font-size: 16px;
+width: 373px;
+margin-left: 15px;
+text-align: center;
+    }
+    .donate{
+        width: 342px;
+        height: 223px;
+        margin-left: -182px;
+        margin-top: 450px;
+    }
+    .rightHelpTitles{
+font-size: 18px;
+margin-left: -185px;
+    }
+    .rightHelpTxt{
+font-size: 16px;
+width: 373px;
+margin-left: -195px;
+text-align: center;
+    }
+    .plannedGiv{
+        width: 342px;
+        height: 223px;
+        margin-left: 30px;
+    }
+    .cansForCrits{
+        width: 342px;
+        height: 223px;
+        margin-left: -182px;
+        margin-top: 400px;
+    }
+    .currDonation{
+font-size: 17px;
+    }
+    .donationH2{
+font-size: 16px;
+    }
+    .donationItem{
+        font-size: 16px;
+    }
+    .donationItemDesc{
+        font-size: 16px;
+    }
 }
