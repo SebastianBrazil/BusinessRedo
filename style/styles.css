@@ -1071,8 +1071,7 @@ body {
 }
 
 .serviceCats {
-    font-family: Martel;
-    font-weight: bold;
+    font-family: MartelBold;
     font-size: 20px;
     color: #000000;
     text-decoration: underline;
@@ -1113,15 +1112,13 @@ body {
 .rabVac {
     font-size: 17px;
     color: #000000;
-    font-weight: bold;
-    font-family: Martel;
+    font-family: MartelBold;
     text-align: center;
     margin-top: -70px;
 }
 
 .serviceSurgInfCat {
-    font-family: Martel;
-    font-weight: bold;
+    font-family: MartelBold;
     font-size: 20px;
     color: #000000;
     margin-top: -10px;
@@ -1157,7 +1154,6 @@ body {
     border-radius: 25px;
     width: auto;
     height: 456px;
-    /* margin-bottom: 0px; */
     margin-left: 100px;
     margin-top: -20px;
     margin-right: -50px;
@@ -1211,9 +1207,8 @@ body {
     color: #000000;
     margin-top: -25px;
     margin-bottom: 70px;
-    margin-left: 150px;
+    margin-left: 175px;
     margin-right: -100px;
-    text-indent: 30px;
 }
 
 .addServInfo2 {
@@ -1222,9 +1217,8 @@ body {
     color: #000000;
     margin-top: -35px;
     margin-bottom: 70px;
-    margin-left: 150px;
-    margin-right: 50px;
-    text-indent: 30px;
+    margin-left: 175px;
+    margin-right: -120px;
 }
 
 .addServInfo2Fix {
@@ -1234,7 +1228,7 @@ body {
     margin-top: -35px;
     margin-bottom: 70px;
     margin-left: 175px;
-    margin-right: -100px;
+    margin-right: -120px;
 }
 
 .addInfoPrice {
@@ -1243,9 +1237,8 @@ body {
     color: #000000;
     margin-top: 20px;
     margin-bottom: 70px;
-    margin-left: 150px;
+    margin-left: 175px;
     margin-right: -100px;
-    text-indent: 30px;
 }
 
 .addInfoPrice2 {
@@ -1278,10 +1271,17 @@ body {
     border-radius: 25px;
     width: auto;
     height: 290px;
-    /* margin-bottom: 0px; */
     margin-left: -140px;
     margin-top: 80px;
     margin-right: 100px;
+}
+
+.vacSubText{
+    font-family: InikaBold;
+    font-size: 25px;
+    margin-bottom: 30px;
+    margin-left: 180px;
+    margin-right: 180px;
 }
 
 @media screen and (max-width: 991px) {
@@ -1401,6 +1401,54 @@ body {
     .blueb {
         height: 43px
     }
+
+    .logoFooter {
+        width: 136px;
+        height: 101px;
+        margin-top: 10px;
+        margin-left: 65%;
+    }
+
+    .rightTopText {
+        margin-top: 70px;
+        margin-right: 1%;
+        font-size: 20px;
+    }
+
+    .leftTopText {
+        font-size: 20px;
+        margin-left: 140px;
+        margin-top: -140px;
+    }
+
+    .leftBottomText {
+        font-size: 14px;
+        margin-left: 194px;
+        margin-top: -170px;
+    }
+
+    .fbFooter {
+        width: 46px;
+        height: 47px;
+    }
+
+    .outer-FB-Footer {
+        margin-right: 1%;
+        margin-top: -15px;
+    }
+
+    .rightBottomText {
+        margin-right: 1%;
+        font-size: 16px;
+    }
+    
+    .rightTextShift {
+        margin-top: 5px;
+    }
+    
+    .rightShrinkMargin {
+        margin-top: -23px;
+    }
     .homeTxt {
         color: #000000;
         font-family: Martel;
@@ -1416,5 +1464,4 @@ body {
         
     
     }
-
 }
